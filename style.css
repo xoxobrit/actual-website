@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: Cochin;
+}
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #ffc1cc;
+}
+header * {
+    display: inline;
+    height: 50px;
+}
+header ul {
+    padding: 0;
+}
+header li {
+    margin-left: 20px;
+}
+.button{
+    position: absolute;
+
+}
+.btn {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+section {
+    height: 100vh;
+    border: 1px solid rgb(255, 224, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-img{
+    rotate: 90deg;
+}
+
+header .profile-img{
+    height: 43.5px;
+    
+}
+.section-inner1 .profile-img{
+    width: 50px;
+    margin-top: 50px;
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(new\ home.gif);
+    width: auto;
+    max-height: 100%;
+}
+#current {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(Neutral\ Pastel\ Aesthetic\ Vintage\ Moodboard\ Photo\ Collage\ Grid\ Instagram\ Post.gif);
+    width: auto;
+    max-height: 100%;
+}
+.section-inner1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    background-color: #fff;
+    text-align: center;
+}
+.title2 {
+    color: grey;
+    font-size: 18px;
+}
+
+.card {
+    display: inline-block;
+    width: 50%;
+    padding: 0 10px;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.section-inner2 {
+    box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    background-color: #e3f2f7;
+    text-align: center;
+    
+}
+
+.section-inner2 .texth1 {
+    background: -webkit-linear-gradient(right, #4f65f7, #84cfd1, #161fc4, #6ff1cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+.section-inner2 .text{
+    font-size: large;
+    background: -webkit-linear-gradient(right, #4f65f7, #84cfd1, #161fc4, #6ff1cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+footer {
+    text-align: center;
+    padding: 50px;
+    font-size: 17px;
+    height: 2px;
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(Ducks\ EBF.jpeg);
+}
+
+/* Resume Button */
+
+
+
+/* Contact Page */
+
+#contact{
+  display: flex;
+  align-items: c;
+  min-height: 100vh;
+  padding: 40px;
+  background: linear-gradient(115deg, #f2f74f 10%, #ec1ed0 90%), url(Light\ Pink\ Royal\ Purple\ Light\ \ Gradients\ Model\ &\ Actor\ \ Website\ \(1\).png);
+}
+.container3{
+  justify-content: left;
+  max-width: 600px;
+  background: #fff;
+  width: 300px;
+  padding: 25px 40px 10px 40px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.container3 .text{
+  
+  font-size: 35px;
+  font-weight: 600;
+  margin: 10px;
+  background: -webkit-linear-gradient(right, #f2f74f, #ec1ed0, #f2f74f, #ec1ed0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container3 .form-row{
+    margin: 10px;
+}
